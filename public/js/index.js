@@ -4,8 +4,6 @@ const elements = {
     quote: document.getElementById("quote"),
     author: document.getElementById("author"),
 };
-
-
 const quotes = [
     {
         quote: "All hands! Abandon ship!",
@@ -22,7 +20,6 @@ const quotes = [
         author: "Eric Schmidt",
     }
 ]
-
 function loopThroughQuotes() {
     let quoteIndex = 0;
     setInterval(() => {
@@ -35,5 +32,4 @@ function loopThroughQuotes() {
         }
     }, 3000);
 }
-
 setTimeout(loopThroughQuotes, 3000);
