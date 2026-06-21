@@ -5,6 +5,7 @@ const elements = {
     author: document.getElementById("author"),
 };
 
+
 const quotes = [
     {
         quote: "All hands! Abandon ship!",
@@ -34,3 +35,5 @@ function loopThroughQuotes() {
         }
     }, 3000);
 }
+
+setTimeout(loopThroughQuotes, 3000);
